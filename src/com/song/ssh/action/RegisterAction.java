@@ -1,7 +1,7 @@
 package com.song.ssh.action;
 
 import com.opensymphony.xwork2.ActionSupport;
-import com.song.ssh.beans.UserForm;
+import com.song.ssh.beans.User;
 import com.song.ssh.service.UserManager;
 import com.song.ssh.serviceImpl.UserManagerImpl;
 
@@ -9,15 +9,15 @@ public class RegisterAction extends ActionSupport {
 	  
     private static final long serialVersionUID = 1L;  
   
-    private UserForm user;  
+    private User user;  
   
     private UserManager userManager;  
   
-    public UserForm getUser() {  
+    public User getUser() {  
         return user;  
     }  
   
-    public void setUser(UserForm user) {  
+    public void setUser(User user) {  
         this.user = user;  
     }  
   

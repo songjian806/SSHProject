@@ -1,9 +1,9 @@
 package com.song.ssh.service;
 
-import com.song.ssh.beans.UserForm;  
+import com.song.ssh.beans.User;  
 
 public interface UserManager {  
   
-    public void regUser(UserForm user);  
+    public void regUser(User user);  
   
 }  
